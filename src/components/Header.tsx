@@ -12,11 +12,13 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
-      <h1 className="text-xl font-bold text-gray-800">sagechoi.dev</h1>
-      <nav className="space-x-4">
-        {navLink("about", "About")}
-        {navLink("projects", "Projects")}
-      </nav>
+      <div className="max-w-5xl mx-auto flex items-center justify-between py-4 px-6">
+        <h1 className="text-xl font-bold text-gray-800">sagechoi.dev</h1>
+        <nav className="space-x-4">
+          {navLink("about", "About")}
+          {navLink("projects", "Projects")}
+        </nav>
+      </div>
     </header>
   );
 };
