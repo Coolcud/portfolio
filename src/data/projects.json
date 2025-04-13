@@ -1,0 +1,12 @@
+[
+  {
+    "title": "React Portfolio",
+    "description": "A personal site built using React and Tailwind CSS to showcase my work.",
+    "url": "https://github.com/Coolcud"
+  },
+  {
+    "title": "3D Bubble Tea",
+    "description": "A 3D bubble tea builder developed as a two-person capstone project using React and react-three-fiber.",
+    "url": "https://threed-bubble-tea-ordering.onrender.com/"
+  }
+]
